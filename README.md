@@ -11,7 +11,11 @@ _Ongoing webpage used as a portfolio to demonstrate skills with HTML and CSS._
 ## Setup/Installation Requirements
 
 * _Clone repository_
+<<<<<<< HEAD
 * _Open webpage: https://cescarez.github.io/
+=======
+* _Open webpage: https://cescarez.github.io/portfolio
+>>>>>>> master
 * _Bake Christabel a pie_
 
 _Seriously, she loves pie. Apple is preferred, but really any kind that isn’t cream-based._
