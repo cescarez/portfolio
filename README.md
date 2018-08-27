@@ -6,15 +6,13 @@
 
 ## Description
 
-_Ongoing webpage used as a portfolio to demonstrate skills with HTML and CSS._
+_Ongoing webpage used as a portfolio to demonstrate skills with HTML and CSS, including Bootstrap._
 
 ## Setup/Installation Requirements
 
 * _Clone repository_
-* _Open webpage: https://cescarez.github.io/portfolio
-* _Bake Christabel a pie_
+* _Open index.html or webpage: https://cescarez.github.io/portfolio_
 
-_Seriously, she loves pie. Apple is preferred, but really any kind that isn’t cream-based._
 
 ## Known Bugs
 
@@ -26,14 +24,12 @@ _Contact christabel.escarez@gmail.com with any technical issues._
 
 ## Technologies Used
 
-_Mouse_
-_Computer_
-_Person browsing Webpage_
-_I also hope you have a pet_
-  _If you like pets._
+_HTML_
+_CSS_
+_Bootstrap_
 
 ### License
 
-*This software is licensed under the GPL license.  Get free. STAY FREE.*
+*This software is licensed under the GPL license.*
 
-Copyright (c) 2018 **_Christabel and Dog_**
+Copyright (c) 2018 **_Christabel Escarez_**
