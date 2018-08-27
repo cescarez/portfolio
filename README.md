@@ -11,7 +11,16 @@ _Ongoing webpage used as a portfolio to demonstrate skills with HTML and CSS, in
 ## Setup/Installation Requirements
 
 * _Clone repository_
+<<<<<<< HEAD
+<<<<<<< HEAD
+* _Open webpage: https://cescarez.github.io/
+=======
+* _Open webpage: https://cescarez.github.io/portfolio
+>>>>>>> master
+* _Bake Christabel a pie_
+=======
 * _Open index.html or webpage: https://cescarez.github.io/portfolio_
+>>>>>>> master
 
 
 ## Known Bugs
