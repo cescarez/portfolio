@@ -1,4 +1,18 @@
 .img-fluid {
   max-width: 100%;
   height: auto;
+  float: right;
+}
+
+h1 {
+  font-weight: bold;
+  color: #80888D;
+}
+
+#cv {
+  border-style: solid;
+  border-width: thick;
+  border-radius: 3px;
+  border-color: #B7B7B7;
+  padding: 2px;
 }
