@@ -69,20 +69,12 @@ img#banner {
   height: auto;
 }
 
-/* img#officiationfooter {
-  float:left;
-} */
-
 img#self {
   width: 85%;
   height: auto;
   margin: 15px;
   border-radius: 15px;
 }
-
-/* img#mtn-icon {
-  float:right;
-} */
 
 #contact-bar {
   background: linear-gradient(0.25turn, #9ed8fd, #5d9bd4);
