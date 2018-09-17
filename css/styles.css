@@ -61,8 +61,16 @@ img#self {
   border-radius: 15px;
 }
 
+a {
+  color: #4483ea;
+}
+
 a:visited {
   color: #853b4c;
+}
+
+a:visited:hover {
+  color: #6b0303;
 }
 
 img.nav-icon {
