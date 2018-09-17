@@ -113,6 +113,7 @@ img#banner {
   body {
     max-width: 1250px;
     margin-left: 10%;
+    margin-right: 10%;
   }
   .content {
     padding-right: 20%;
