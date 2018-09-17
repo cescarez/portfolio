@@ -53,12 +53,16 @@ ul.small-font {
   padding-top: 0px;
 }
 
-img#self{
+img#self {
   width: 90%;
   height: auto;
   float: right;
   margin: 15px;
   border-radius: 15px;
+}
+
+a:visited {
+  color: #853b4c;
 }
 
 img.nav-icon {
