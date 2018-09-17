@@ -1,66 +1,74 @@
 <!doctype html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway|Cabin" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Christabel Escarez - Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Christabel Escarez - Portfolio</h1>
+    <div id="contact-bar">
       <ul class="nav nav-pills nav-justified" role="contact info">
         <li class="nav-item">
-          <a class="nav-item" class="nav-link" href="mailto:christabel.escarez@gmail.com">christabel.escarez@gmail.com</a>
+          <a class="nav-item" class="nav-link" href="mailto:christabel.escarez@gmail.com"><img src="img/email-icon.png" id="email"></img></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/cescarez/">GitHub</a>
+          <a class="nav-link" href="https://github.com/cescarez/"><img src="img/github-icon.png" id="github"></img></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/christabelescarez/">LinkedIn</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/christabelescarez/"><img src="img/linkedin-icon.png" id="linkedin"></img></a>
         </li>
       </ul>
     </div>
+    <img src="img/bannershort.png" id="banner"></img>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h3 class="text-center">About Me (in front of a computer)</h3>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4 class="panel-title">Previous Projects (.git)</h4>
-            </div>
-            <div class="body">
+          <h3 class="title">About Me (in front of a computer)</h3>
+          <div class="box-heading">
+            <h4 class="subtitle">Previous Projects (.git)</h4>
+          </div>
+          <div class="content" id="projects">
+            <p>
+              <a href="https://github.com/cescarez/hello-world.git">Hello World</a>, my first webpage to practice local and remote repositories and basic HTML.
+              <br><a href="https://github.com/cescarez/boring-lecture.git">Boring Lecture</a>, my first webpage also utilizing CSS.
+              <br><a href="https://github.com/cescarez/my-first-webpage.git">My First Webpage</a>, another basic HTML/CSS page used to practice acquired skills and README structure.
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
               <ul>
-                <li><a href="https://github.com/cescarez/hello-world.git">Hello World</a>, my first webpage to practice local and remote repositories and basic HTML.</li>
-                <li><a href="https://github.com/cescarez/boring-lecture.git">Boring Lecture</a>, my first webpage also utilizing CSS.</li>
-                <li><a href="https://github.com/cescarez/my-first-webpage.git">My First Webpage</a>, another basic HTML/CSS page used to practice acquired skills and README structure.</li>
-                <li><a href="https://github.com/cescarez/taho.git">Taho, the Rescue Mutt</a>, a webpage about my dog, the <strong>most</strong> goodest boy. Used as an ongoing playground to practice skills and tools, which so far include:</li>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <ul>
-                    <li>Bootstrap</li>
-                  </ul>
-                </ul>
+                <li>Bootstrap</li>
               </ul>
-            </div>
+            </ul>
           </div>
           <div id="cv">
-            <h4>Education & Experience</h4>
-            <p>Lewis & Clark College, <em>B.A. Biology</em></p>
-            <p>Epicodus, Intro to Programming (Evening) Course</p>
-            <p>Portland Community College, CS161 - Computer Science I</p>
-            <p>For non-CS work history, please see my <a href="https://www.linkedin.com/in/christabelescarez/">LinkedIn profile</a></p>
+            <div class="box-heading">
+              <h4 class="subtitle">Education & Experience</h4>
+            </div>
+            <div class="content">
+              <p>
+                Lewis & Clark College, <em>B.A. Biology</em>
+                <br>Epicodus, Intro to Programming (Evening) Course
+                <br>Portland Community College, CS161 - Computer Science I
+                <br>For non-CS work history, please see my <a href="https://www.linkedin.com/in/christabelescarez/">LinkedIn profile</a>
+              </p>
+            </div>
           </div>
         </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h3 class="text-center">About Me (beyond the keyboard)</h3>
-        <p>Seattle, born and raised, recent Portland transplant. I have the spent the last 7 years in analytical chemistry; I am excited to learn new skills and if all goes well, enter a field with opportunity, growth, and stability. I feel biggest in a poem, atop a mountain, on an open dance floor, kissing my dog's snout. <a href="officiant.pdf">I officiate weddings.</a></p>
-        <figure class="figure">
-          <img src="img/taho.JPG" class="figure-img img-fluid img-rounded" alt="a dog sits in front of a table and a person dressed in blue.">
-          <figcaption class="figure-caption text-right">August 2018. Glacier Lake, Banff National Park.</figcaption>
-        </figure>
+        <div class="col-md-6" id="bio">
+          <h3 class="title">About Me (beyond the keyboard)</h3>
+          <div class="content">
+            <p>Seattle, born and raised, recent Portland transplant. I have the spent the last 7 years in analytical chemistry; I am excited to learn new skills and if all goes well, enter a field with opportunity, growth, and stability. <a href="officiant.pdf">I officiate weddings.</a> I feel biggest in a poem, atop a mountain, on an open dance floor, kissing my dog's snoot. </p>
+          </div>
+          <img src="img/taho.JPG" alt="a dog sits in front of a table and a person dressed in blue." class="img-fluid">
+        </div>
       </div>
+    </div>
+    <div id="footer">
+      <img src="img/footer-blue.png" width=100%></img>
     </div>
   </body>
 </html>
