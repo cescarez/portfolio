@@ -13,6 +13,10 @@ body {
   padding: 0px;
 }
 
+img {
+  max-width: 100%
+}
+
 .title {
   text-align: center;
   font-family: "Bitter", sans-serif;
@@ -39,11 +43,6 @@ body {
   line-height: 1.6;
 }
 
-.full-width {
-  width: 100%;
-  height: auto;
-}
-
 .small-font {
   font-size: 13px;
 }
@@ -64,6 +63,11 @@ img.img-fluid {
 img.nav-icon {
   width: 13%;
   max-width: 35px;
+  height: auto;
+}
+
+img#banner {
+  width: 100%;
   height: auto;
 }
 
@@ -91,8 +95,8 @@ img.nav-icon {
   text-align: right;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   body {
-    font-size: 4vw;
+    font-size: 2em;
   }
 }
