@@ -13,21 +13,18 @@ body {
   padding: 0px;
 }
 
-img#banner {
-  width: 100%;
-}
-
 .title {
   padding-left: 45px;
   padding-right: 45px;
   text-align: center;
   font-family: "Bitter", sans-serif;
-  font-weight: bold;
+  text-shadow: 3px;
 }
 
 .subtitle {
   padding-left: 40px;
   font-family: "Bitter", sans-serif;
+  text-decoration: underline;
 }
 
 .content {
@@ -41,6 +38,11 @@ img#banner {
   line-height: 1.6;
 }
 
+.nav-icon {
+  width: 13%;
+  height: auto;
+}
+
 .small-font {
   font-size: 13px;
 }
@@ -48,13 +50,6 @@ img#banner {
 ul.small-font {
   margin: 0px;
   padding-top: 0px;
-}
-
-img#self {
-  width: 85%;
-  height: auto;
-  margin: 15px;
-  border-radius: 15px;
 }
 
 a {
@@ -69,16 +64,25 @@ a:visited:hover {
   color: #6b0303;
 }
 
-img.nav-icon {
-  width: 13%;
-  max-width: 35px;
-  height: auto;
-}
-
 img#banner {
   width: 100%;
   height: auto;
 }
+
+/* img#officiationfooter {
+  float:left;
+} */
+
+img#self {
+  width: 85%;
+  height: auto;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+/* img#mtn-icon {
+  float:right;
+} */
 
 #contact-bar {
   background: linear-gradient(0.25turn, #9ed8fd, #5d9bd4);
@@ -127,10 +131,3 @@ img#banner {
     text-align: justify;
   }
 }
-
-/* @media (min-width: 1425px) {
-  body {
-    margin-left: 10%;
-    margin-right: 8%;
-  }
-} */
