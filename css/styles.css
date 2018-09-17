@@ -101,3 +101,9 @@ img#banner {
     font-size: 2em;
   }
 }
+
+@media (max-width: 300px) {
+  body {
+    font-size: 6em;
+  }
+}
