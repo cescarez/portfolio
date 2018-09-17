@@ -90,3 +90,9 @@ img.nav-icon {
   float:right;
   text-align: right;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 4vw;
+  }
+}
