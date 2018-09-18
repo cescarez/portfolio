@@ -16,7 +16,7 @@ body {
 .title {
   padding-left: 45px;
   padding-right: 45px;
-  text-align: center;
+  margin-bottom: 10px;
   font-family: "Bitter", sans-serif;
   text-shadow: 3px;
 }
@@ -74,10 +74,11 @@ img#banner-lg-text {
 }
 
 img#self {
-  width: 85%;
+  max-width: 85%;
   height: auto;
-  padding: 15apx;
-  border-radius: 15px;
+  float: right;
+  margin-right: 5%;
+  border-radius: 400px;
 }
 
 #contact-bar {
@@ -87,7 +88,7 @@ img#self {
 
 
 
-#projects-box {
+/* #projects-box {
 
 }
 
@@ -97,7 +98,7 @@ img#self {
 
 #bio-box {
 
-}
+} */
 
 #footer {
   background: linear-gradient(0.25turn, #9ed8fd, #5d9bd4);
@@ -128,9 +129,9 @@ img#self {
     width: 1250px;
     margin: auto;
   }
-  .content {
+  /* .content {
     padding-right: 20%;
-  }
+  } */
   .title {
     text-align: justify;
   }
