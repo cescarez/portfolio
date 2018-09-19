@@ -74,10 +74,13 @@ img#banner-lg-text {
 }
 
 img#self {
-  max-width: 85%;
+  width: 85%;
+  max-width: 600px;
   height: auto;
-  float: right;
-  margin-right: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
   border-radius: 400px;
 }
 
@@ -85,8 +88,6 @@ img#self {
   background: linear-gradient(0.25turn, #9ed8fd, #5d9bd4);
   align-content: center;
 }
-
-
 
 /* #projects-box {
 
@@ -129,9 +130,7 @@ img#self {
     width: 1250px;
     margin: auto;
   }
-  /* .content {
-    padding-right: 20%;
-  } */
+}
   .title {
     text-align: justify;
   }
