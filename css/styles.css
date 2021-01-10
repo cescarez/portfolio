@@ -149,6 +149,7 @@ ul li {
 .note {
   font-size: 9px;
   font-style: italic;
+  margin: 0px;
 }
 
 .routes {
