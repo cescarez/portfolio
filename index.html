@@ -48,7 +48,8 @@
                 Lewis & Clark College, <span class="small-font">B.A. Biology</span>
                 <br>Epicodus, <span class="small-font">Intro to Programming (Evening) Course</span>
                 <br>Portland Community College, <span class="small-font">Computer Science I-II, Intro to UNIX/Linux, Discrete Structures I-II</span>
-                <br><em>For non-CS work history, please see my <a href="https://www.linkedin.com/in/christabelescarez/" target="_blank" rel="noopener noreferrer" class="deployed">LinkedIn profile</a></em>
+                <br>Ada Developers Academy, <span class="small-font">Full Stack Development, Computer Science Fundamentals</span>
+                <br><em>For non-CS work history, please see my <a href="https://www.linkedin.com/in/christabelsebastian/" target="_blank" rel="noopener noreferrer" class="deployed">LinkedIn profile</a></em>
               </p>
             </div>
           </div>
@@ -71,22 +72,22 @@
                   </li>
                   <li>
                     <a href="https://github.com/cescarez/video-store-api" target="_blank" rel="noopener noreferrer">Video Store API</a>
-                    <a href="https://cbel-video-store.herokuapp.com/videos" target="_blank" rel="noopener noreferrer" class="deployed">: demo page</a>
+                    <a href="https://cbel-sophie-video-store.herokuapp.com/videos" target="_blank" rel="noopener noreferrer" class="deployed">: demo page</a>
                     <p class="routes">example endpoints:</p>
                     <ul class="routes">
-                      <li>post 'rentals/check-in'</li>
-                      <li>post 'rentals/check-out'</li>
+                      <li>post 'rentals/check-in/:video_id'</li>
+                      <li>post 'rentals/check-out/' <span class="note">Request body must include a :video_id and :customer_id</span> </li>
                       <li>get 'rentals/overdue'</li>
 
 
-                      <li>get 'customers/:id/current'</li>
-                      <ul>
-                        <li class="note">ex: 'customers/2/current'</li>
-                      </ul>
-                      <li>get 'videos/:id/history'</li>
-                      <ul>
-                        <li class="note">ex: 'videos/14/history'</li>
-                      </ul>
+                      <li>
+                        get 'customers/:id/current'
+                        <span class="note">ex: 'customers/2/current'</span>
+                      </li>
+                      <li>
+                        get 'videos/:id/history'
+                        <span class="note">ex: 'videos/14/history'</span>
+                      </li>
                     </ul>
                   </li>
                   <li>
