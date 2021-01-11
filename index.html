@@ -75,19 +75,20 @@
                     <a href="https://cbel-sophie-video-store.herokuapp.com/videos" target="_blank" rel="noopener noreferrer" class="deployed">: demo page</a>
                     <p class="routes">example endpoints:</p>
                     <ul class="routes">
-                      <li>post 'rentals/check-in/:video_id'</li>
-                      <li>post 'rentals/check-out/' <span class="note">Request body must include a :video_id and :customer_id</span> </li>
-                      <li>get 'rentals/overdue'</li>
-
-
+                      <li>GET/videos</li>
+                      <li>GET /customers?sort=name&n=10&p=2 #=> will return customers 11-20, sorted by name</li>
                       <li>
-                        get 'customers/:id/current'
+                        GET 'customers/:id/current'
                         <span class="note">ex: 'customers/2/current'</span>
                       </li>
                       <li>
-                        get 'videos/:id/history'
+                        GET 'videos/:id/history'
                         <span class="note">ex: 'videos/14/history'</span>
                       </li>
+
+                      <li>POST 'rentals/check-out/' <span class="note">Request body must include a :video_id and :customer_id</span> </li>
+                      <li>POST 'rentals/check-in/:video_id'</li>
+                      <li>GET 'rentals/overdue'</li>
                     </ul>
                   </li>
                   <li>
@@ -124,21 +125,6 @@
                   </li>
                 </ul>
               </section>
-
-                <!-- TAHO WEBPAGE IS NOT UP TO DATE. 9/30/18 -->
-                <!-- <br><a href="https://github.com/cescarez/taho.git">Taho, the Rescue Mutt</a>, <span class="small-font">a webpage about my dog, the <strong>most</strong> goodest boy. Used as an ongoing playground to practice skills and tools, which so far include:</span>
-                <ul class="small-font">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <ul>
-                    <li>Bootstrap</li>
-                  </ul>
-                  <li>JavaScript</li>
-                  <ul>
-                    <li>jQuery</li>
-                  </ul>
-                </ul> -->
-              </p>
             </div>
           </div>
         </div>
